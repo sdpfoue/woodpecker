@@ -46,3 +46,258 @@
     top: 28%;
     margin-top: -13px;
 }
+
+
+#quick-add-form {
+    display: block;
+    margin: 8px;
+}
+
+#quick-add-instructions {
+    clear: both;
+    float: left;
+    color: #666;
+    font-size: 85%;
+}
+
+#quick-add-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    background: url(/reader/ui/939333013-close-box.gif) no-repeat;
+}
+
+#quick-add-input-div {
+    clear: both;
+}
+
+#quickadd {
+    width: 220px;
+    margin-right: 4px;
+    float: left;
+    border: solid 1px #b2b2b2;
+    padding: 2px;
+}
+
+.goog-inline-block {
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+.goog-button-base {
+    cursor: default;
+    letter-spacing: normal;
+    margin: 0 1px;
+    outline: none;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    white-space: nowrap;
+    word-spacing: normal;
+    font-size: .85em;
+    font-weight: bold;
+    color: #444;
+}
+
+.goog-button-float-left {
+    float: left;
+}
+
+
+
+
+#quick-add-bubble-holder {
+    color: #000;
+    position: absolute;
+    width: 308px;
+    z-index: 101;
+    border: 1px solid #d0d0d0;
+    background-color: #f7f7f7;
+}
+
+#quick-add-form {
+    display: block;
+    margin: 8px;
+}
+
+#quick-add-instructions {
+    clear: both;
+    float: left;
+    color: #666;
+    font-size: 85%;
+}
+
+#quick-add-close {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    background: url(/reader/ui/939333013-close-box.gif) no-repeat;
+}
+
+#quick-add-input-div {
+    clear: both;
+}
+
+#quickadd {
+    width: 220px;
+    margin-right: 4px;
+    float: left;
+    border: solid 1px #b2b2b2;
+    padding: 2px;
+}
+
+.goog-inline-block {
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+.goog-button-base {
+    cursor: default;
+    letter-spacing: normal;
+    margin: 0 1px;
+    outline: none;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    white-space: nowrap;
+    word-spacing: normal;
+    font-size: .85em;
+    font-weight: bold;
+    color: #444;
+}
+
+.goog-button-float-left {
+    float: left;
+}
+
+.goog-inline-block {
+    position: relative;
+    display: inline-block;
+}
+
+.goog-inline-block {
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+.goog-button-base-outer-box {
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.goog-button-base-inner-box {
+    background-color: #f5f5f5;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    background: #f5f5f5;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    margin: 0 -1px;
+    height: 27px;
+}
+
+.goog-button-base {
+    cursor: default;
+    letter-spacing: normal;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    white-space: nowrap;
+    word-spacing: normal;
+    font-size: .85em;
+    font-weight: bold;
+    color: #444;
+}
+
+.goog-button-base {
+    cursor: default;
+    letter-spacing: normal;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    white-space: nowrap;
+    word-spacing: normal;
+    font-size: .85em;
+    font-weight: bold;
+    color: #444;
+}
+
+.goog-inline-block {
+    position: relative;
+    display: inline-block;
+}
+
+.goog-inline-block {
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+}
+
+.goog-button-base-outer-box {
+    border-top: 1px solid #dcdcdc;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.goog-button-base-inner-box {
+    background-color: #f5f5f5;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    background: #f5f5f5;
+    border-left: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+    margin: 0 -1px;
+    height: 27px;
+}
+
+.goog-button-base {
+    cursor: default;
+    letter-spacing: normal;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    white-space: nowrap;
+    word-spacing: normal;
+    font-size: .85em;
+    font-weight: bold;
+    color: #444;
+}
+
+.goog-button-base {
+    cursor: default;
+    letter-spacing: normal;
+    text-align: center;
+    text-indent: 0;
+    text-transform: none;
+    white-space: nowrap;
+    word-spacing: normal;
+    font-size: .85em;
+    font-weight: bold;
+    color: #444;
+}
+
+
+.goog-button-base-content {
+    line-height: 1.55em;
+    text-align: center;
+}
+
+.goog-button-tight .goog-button-base-content {
+    line-height: 1.4em;
+}
+
+

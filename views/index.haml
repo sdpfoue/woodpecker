@@ -7,3 +7,14 @@
   .span10
     #sections-header
       section header
+
+%div{:id => 'quick-add-bubble-holder', :style => 'left: 16.363636016845703px; top: 164.4545440673828px;',  :class=> ""}
+  %form#quick-add-form
+    %span#quick-add-instructions Enter a search term to find feeds or paste a feed url.
+    #quick-add-close
+    #quick-add-input-div
+      %input{:tpype => 'text', :name => 'quickadd', :id => 'quickadd', :autocomplete => 'off', :spellcheck => 'false', :style => 'width: 225.09092712402344px;'}
+      #quick-add-btn{:class => 'goog-button goog-button-base unselectable goog-inline-block goog-button-float-left goog-button-tight'}
+        .btn Add
+    #quick-add-helptext e.g., googleblog.blogspot.com or cnn   
+/ Templates
