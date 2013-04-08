@@ -1,10 +1,13 @@
 $(function(){
-    window.TodoView = Backbone.View.extend({
+    window.IndexView = Backbone.View.extend({
+        el: $("#reader"),
         events: {
-                    "click #lhn-add-subscription"       : "quickAddForm",
+                    //"click #lhn-add-subscription"       : "quickadd"
+                    "click #reader"       : "quickadd"
                 },
-        quickAddForm: function() {
-
-                      }
-    }
-}
+    quickadd: function() {
+                      alert('xxx');
+                      console.log('aa');
+                  },
+    });
+});
