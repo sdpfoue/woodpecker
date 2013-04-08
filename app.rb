@@ -4,5 +4,5 @@ require 'mongo'
 require 'json'
 
 get '/' do
-      haml :index, :attr_wrapper => '"', :locals => {:title => 'title'}
+      haml :index, :attr_wrapper => '"', :locals => {:title => 'Woodpecker'}
 end                                                                                                     

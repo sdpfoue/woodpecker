@@ -1,0 +1,48 @@
+#logo-section #logo-link {
+    color: #dd4b39;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+#logo-section {
+    padding: 6px 0;
+    border-bottom: 1px solid #ebebeb;
+    font-weight: normal;
+    font-size: 20px;
+    color: #dd4b39;
+}
+
+#sections-header {
+    position: relative;
+    padding: 0;
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 2em;
+}
+
+#sections-header .contents {
+    position: absolute;
+    top: 50%;
+    height: 27px;
+    margin-top: -13px;
+    width: 100%;
+}
+
+#lhn-add-subscription-section {
+    border-bottom: 0;
+    height: 57px;
+}
+
+#lhn-add-subscription {
+    top: 35px;
+    margin-left: 16px;
+    min-width: 80px;
+    margin-right: auto;
+    height: 27px;
+    display: block;
+    position: absolute;
+    top: 28%;
+    margin-top: -13px;
+}
