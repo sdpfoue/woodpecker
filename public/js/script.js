@@ -1,13 +1,13 @@
 $(function(){
-    window.IndexView = Backbone.View.extend({
+    window.AppView = Backbone.View.extend({
         el: $("#reader"),
         events: {
-                    //"click #lhn-add-subscription"       : "quickadd"
-                    "click #reader"       : "quickadd"
+                    "click #lhn-add-subscription"       : "quickaddurl",
                 },
-    quickadd: function() {
-                      alert('xxx');
-                      console.log('aa');
+    quickaddurl: function() {
+                     $("#quick-add-bubble-holder").attr('class', '');
                   },
     });
+
+    window.App = new AppView;
 });
