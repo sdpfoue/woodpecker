@@ -1,0 +1,8 @@
+development:
+    database: woodpecker
+    username: root
+    socket: /tmp/mysql.socke
+    timeout: 5000
+
+test:
+    database: db/test.sqlite3
