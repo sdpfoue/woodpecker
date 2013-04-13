@@ -300,4 +300,61 @@
     line-height: 1.4em;
 }
 
+.jfk-butterBar {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    -webkit-transition: all 0 linear 1s,opacity 1s;
+    -moz-transition: all 0 linear 1s,opacity 1s;
+    -o-transition: all 0 linear 1s,opacity 1s;
+    transition: all 0 linear 1s,opacity 1s;
+    border-style: solid;
+    border-width: 0;
+    font-size: 11px;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+}
 
+.message-area-container {
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    text-align: center;
+    left: 50%;
+}
+
+.jfk-butterBar-info {
+    background-color: #f9edbe;
+    border-color: #f0c36d;
+    color: #333;
+}
+
+.jfk-butterBar-shown {
+    -webkit-transition: opacity .218s;
+    -moz-transition: opacity .218s;
+    -o-transition: opacity .218s;
+    transition: opacity .218s;
+    border-width: 1px;
+    height: 14px;
+    opacity: 1;
+    visibility: visible;
+    padding: 6px 16px;
+}
+
+#loading-area {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.goog-inline-block {
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+}
