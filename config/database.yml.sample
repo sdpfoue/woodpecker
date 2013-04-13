@@ -1,7 +1,9 @@
 development:
+    adapter: postgresql
     database: woodpecker
     username: root
-    socket: /tmp/mysql.socke
+    password: root
+    host: localhost
     timeout: 5000
 
 test:
