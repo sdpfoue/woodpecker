@@ -17,7 +17,11 @@ end
 post '/feed/?' do
     feed = Feed.new
     feed.url = params['feed']
-    feed.save
+    begin
+        feed.save
+    rescue ActiveRecord::RecordNotUnique
+        'record duplicated'
+    end
 end
 
 get '/test/?' do
