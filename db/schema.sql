@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 13, 2013 at 06:18 PM
+-- Generation Time: Apr 23, 2013 at 11:08 PM
 -- Server version: 5.5.29
 -- PHP Version: 5.3.15
 
@@ -44,13 +44,12 @@ CREATE TABLE IF NOT EXISTS `articles` (
 CREATE TABLE IF NOT EXISTS `feeds` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `hashed_url` char(50) NOT NULL,
-  `name` varchar(500) NOT NULL,
   `url` varchar(1000) NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `hashed_url` (`hashed_url`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=84 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=96 ;
 
 -- --------------------------------------------------------
 
