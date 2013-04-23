@@ -4,12 +4,14 @@ require 'mongo'
 require 'json'
 require 'sinatra/activerecord'
 require './config/environments' 
-require './models/feed.rb'
+require './autoload.rb'
 
+SinatraAutoload.root_path = Dir.pwd;
+SinatraAutoload.directories('models');
 
 get '/' do
-      haml :index, :attr_wrapper => '"', :locals => {:title => 'Woodpecker',
-      }
+      @title = 'Woodpecker'
+      haml :index
 end
 
 post '/feed/?' do
