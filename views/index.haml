@@ -18,4 +18,18 @@
         #quick-add-btn{:class => 'goog-button goog-button-base unselectable goog-inline-block goog-button-float-left goog-button-tight'}
           .btn Add
       #quick-add-helptext e.g., googleblog.blogspot.com or cnn   
+#register.hidden
+  #register-form-close
+  %form#register-form
+    %p
+      %label{:for => "user[email]"} Email
+      %input{:type => "text", :name => "user[email]", :value=> 'default'}
+    %p
+      %label{:for => "user[password]"} Password
+      %input{:type => "password", :name => "user[password]"}
+    %p
+      %label{:for => "user[password_confirmation]"}Password Confirmation
+      %input{:type => "password", :name=> "user[password_confirmation]"}
+    %input{:type => "submit", :value => "Register"}
+
   / Templates
