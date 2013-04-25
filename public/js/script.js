@@ -1,12 +1,14 @@
 $(function(){
     window.AppView = Backbone.View.extend({
-        el: $("body"),
-        events: {
-                    "click #lhn-add-subscription"       : "quickaddurl",
-                    "click #quick-add-close"            : "quickAddClose",
-                    "click #quick-add-btn"              : "addFeed",
-                    "click #register_link"              : "showRegisterForm",
-                    "click #register-form-close"       : "closeRegisterForm",
+        el                                        : $("body"),
+        events                                    : {
+                    "click #lhn-add-subscription" : "quickaddurl",
+                    "click #quick-add-close"      : "quickAddClose",
+                    "click #quick-add-btn"        : "addFeed",
+                    "click #register_link"        : "showRegisterForm",
+                    "click #register-form-close"  : "closeRegisterForm",
+                    "click #login_link"           : "showLoginForm",
+                    "click #login-form-close"     : "closeLoginForm",
                 },
     quickaddurl: function() {
                      $("#quick-add-bubble-holder").attr('class', '');
@@ -20,6 +22,13 @@ $(function(){
     closeRegisterForm: function(){
                            $("#register").attr('class', 'hidden');
                        },
+    showLoginForm: function(){
+                       $("#login").attr('class', '');
+                      },
+    closeLoginForm: function(){
+                           $("#login").attr('class', 'hidden');
+                       },
+
 
     addFeed: function(){
                  $("#loading-area-container").removeClass('hidden');

@@ -380,3 +380,26 @@
     width: 9px;
     background: url(/images/close-box.gif) no-repeat;
 }
+
+
+#login{
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    background-color: #e5eecc;
+    top: 120px;
+    left: 550px;
+}
+
+#login-form{
+    margin: 20px;
+}
+
+#login-form-close{
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    background: url(/images/close-box.gif) no-repeat;
+}
