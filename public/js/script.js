@@ -40,5 +40,20 @@ $(function(){
              },
     });
 
+
+
+    window.AppRoute = Backbone.Router.extend({
+        routers: {
+                     "test" : "func"
+                 },
+                 func: function(){
+                           console.log('abc');
+                       }
+
+
+    });
+
     window.App = new AppView;
+    window.BackboneRouter = new AppRoute();
+    Backbone.history.start();
 });
